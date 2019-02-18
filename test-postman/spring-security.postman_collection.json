@@ -1,0 +1,74 @@
+{
+	"id": "5aa0dbc0-6905-4203-98e4-7247f2c3bd97",
+	"name": "spring-security",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"21451ae6-3b67-43ee-96fb-04d594fdec65"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "21451ae6-3b67-43ee-96fb-04d594fdec65",
+			"name": "oauth/token",
+			"url": "http://localhost:8080/oauth/token",
+			"description": "",
+			"data": [
+				{
+					"key": "username",
+					"value": "andres",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "basic",
+				"basic": [
+					{
+						"key": "password",
+						"value": "12345"
+					},
+					{
+						"key": "username",
+						"value": "angularapp"
+					}
+				]
+			},
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		}
+	]
+}
